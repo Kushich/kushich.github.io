@@ -15,12 +15,13 @@
 					<a href="#works" class="nav__link">Works</a>
 					<a href="#stack" class="nav__link">Stack</a>
 					<a href="#about" class="nav__link">About Me</a>
-					<a href="#about" class="nav__link">Contacts</a>
+					<a href="#contacts" class="nav__link">Contacts</a>
 				</nav>
 			</div>
 
 		</div>
 	</header>
+
 	<div class="intro">
 		<div class="container">
 			<div class="intro__inner">
@@ -37,21 +38,14 @@
 				<h3 class="block__title">My Works</h3>
 				<div class="works">
 					<div class="work">
-						<div class="work__title">Capital Lookup</div>
-						<div class="work__stack"><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js"></i> <i class="fab fa-bootstrap"></i></div>
+						<a href="" class="work__title">
+							<h5>Progect Name</h5>
+							<span class="work__stack">
+								<i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-js"></i><i class="fab fa-bootstrap"></i>
+							</span>
+						</a>
 					</div>
-					<div class="work">
-						<div class="work__title">Weight Converter</div>
-						<div class="work__stack"><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js"></i> <i class="fab fa-bootstrap"></i></div>
-					</div>
-					<div class="work">
-						<div class="work__title">Filterable List</div>
-						<div class="work__stack"><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js"></i> <i class="fab fa-bootstrap"></i></div>
-					</div>
-					<div class="work">
-						<div class="work__title">Note <span>[WIP]</span></div>
-						<div class="work__stack"><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js"></i> <i class="fab fa-bootstrap"></i></div>
-					</div>
+
 				</div>
 			</div>
 		</div>
@@ -103,6 +97,13 @@
 		<div class="container">
 			<div class="block__inner">
 				<h3 class="block__title">About Me</h3>
+				<div class="about">
+					<img src="https://sun9-5.userapi.com/c854028/v854028500/1be243/fwgv56qB5Ek.jpg" alt="" class="about__photo">
+					<div class="about__text">
+						My name is Dmitry Kushnerevich. I am <span id="birthDate"></span> years old. I am a student at the Polesky State University, Belarus. I study various front-end technologies and want to become a good programmer :)
+						
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -111,11 +112,31 @@
 		<div class="container">
 			<div class="block__inner">
 				<h3 class="block__title">Contacts</h3>
-				<a class="btn--totop" href="#header">back to top</a>	
+				<div class="contacts">
+					<a href="https://vk.com/kushich" class="contacts__link">
+						<i class="fab fa-vk"></i>
+					</a>
+					<a href="mailto:kushich.dmitry@gmail.com" class="contacts__link">
+						<i class="fas fa-envelope"></i>
+					</a>
+					<a href="https://t.me/Kushich" class="contacts__link">
+						<i class="fab fa-telegram-plane"></i>
+					</a>
+					<a href="https://github.com/Kushich" class="contacts__link">
+						<i class="fab fa-github-alt"></i>
+					</a>	
+				</div>
 			</div>
 		</div>
 	</div>
 
+	<a class="btn--totop" href="#header">
+		<span class="btn--totop__body">
+			<i class="fas fa-chevron-up"></i>
+			<span class="btn--totop__text">Back to top</span>
+		</span>
+	</a>	
+	
 	<script src="script.js"></script>
 </body>
 </html>
