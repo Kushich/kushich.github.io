@@ -3,7 +3,7 @@ const matchList = document.getElementById('match-list')
 
 // Search countries.json and filter it
 const searchCountries = async searchText => {
-    const res = await fetch('..capital-search/data/countries.json')
+    const res = await fetch('../data/countries.json')
     const countries = await res.json() 
     
     // Get matches te current text input
