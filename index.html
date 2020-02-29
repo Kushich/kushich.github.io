@@ -2,9 +2,120 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500|PT+Serif&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/b4f197e3fc.js" crossorigin="anonymous"></script>
 	<title>Landing Page</title>
 </head>
 <body>
-	<h1>Hello!</h1>
+	<header class="header" id="header">
+		<div class="container">
+			<div class="header__inner">
+				<nav class="nav">
+					<a href="#works" class="nav__link">Works</a>
+					<a href="#stack" class="nav__link">Stack</a>
+					<a href="#about" class="nav__link">About Me</a>
+					<a href="#about" class="nav__link">Contacts</a>
+				</nav>
+			</div>
+
+		</div>
+	</header>
+	<div class="intro">
+		<div class="container">
+			<div class="intro__inner">
+				<h2 class="intro__title">
+					Welcome to the landing page with my works
+				</h2>
+				<div class="intro__content">Now there are only practical works, because I'm just training, but I'm sure that in the future you can see my real works here</div>
+			</div>
+		</div>
+	</div>
+	<div class="block" id="works">
+		<div class="container">
+			<div class="block__inner">
+				<h3 class="block__title">My Works</h3>
+				<div class="works">
+					<div class="work">
+						<div class="work__title">Capital Lookup</div>
+						<div class="work__stack"><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js"></i> <i class="fab fa-bootstrap"></i></div>
+					</div>
+					<div class="work">
+						<div class="work__title">Weight Converter</div>
+						<div class="work__stack"><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js"></i> <i class="fab fa-bootstrap"></i></div>
+					</div>
+					<div class="work">
+						<div class="work__title">Filterable List</div>
+						<div class="work__stack"><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js"></i> <i class="fab fa-bootstrap"></i></div>
+					</div>
+					<div class="work">
+						<div class="work__title">Note <span>[WIP]</span></div>
+						<div class="work__stack"><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> <i class="fab fa-js"></i> <i class="fab fa-bootstrap"></i></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="block" id="stack">
+		<div class="container">			
+			<div class="block__inner">
+				<h3 class="block__title">My Stack</h3>
+				<div class="stack">
+					<div class="stack__items">
+						<div class="stack__item">
+							<a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+								<i class="fab fa-html5"></i>
+							</a>
+						</div>
+						<div class="stack__item">
+							<a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+								<i class="fab fa-css3-alt"></i>
+							</a>
+						</div>
+						<div class="stack__item">
+							<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+								<i class="fab fa-js"></i>   
+							</a>
+						</div>
+						<div class="stack__item">
+							<a href="https://getbootstrap.com/">
+								<i class="fab fa-bootstrap"></i>
+							</a>
+						</div>
+						<div class="stack__item">
+							<a href="https://reactjs.org/">
+								<i class="fab fa-react"></i>
+							</a>
+						</div>
+						<div class="stack__item">
+							<a href="https://nodejs.org/en/">
+								<i class="fab fa-node-js"></i>
+							</a>
+						</div>
+					</div>
+				</div>	
+			</div>	
+		</div>
+	</div>
+	
+	<div class="block" id="about">
+		<div class="container">
+			<div class="block__inner">
+				<h3 class="block__title">About Me</h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="block" id="contacts">
+		<div class="container">
+			<div class="block__inner">
+				<h3 class="block__title">Contacts</h3>
+				<a class="btn--totop" href="#header">back to top</a>	
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
 </body>
 </html>
