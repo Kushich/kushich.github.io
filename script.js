@@ -11,7 +11,7 @@ const works = [
 {id: 3, title: 'Filterable List', link: '../filterable-list/index.html', isComplete: true, stack: [html, css, js]},
 {id: 4, title: 'Capital Search', link: '../capital-search/index.html', isComplete: true, stack: [html, css, js, bootstrap]},
 {id: 5, title: 'Weight Converter', link: '../weight-converter/index.html', isComplete: true, stack: [html, css, js, bootstrap]},
-{id: 6, title: 'Number Facts', link: '../number-facts/index.html', isComplete: false, stack: [html, css, js, bootstrap]},
+{id: 6, title: 'Number Facts', link: '../number-facts/index.html', isComplete: true, stack: [html, css, js, bootstrap]},
 {id: 7, title: 'Lyric Search', link: '#', isComplete: false, stack: [html, css, js, bootstrap, react]}
 ]
 
