@@ -13,7 +13,8 @@ const works = [
 {id: 5, title: 'Weight Converter', link: '../weight-converter/index.html', isComplete: true, stack: [html, css, js, bootstrap]},
 {id: 6, title: 'Number Facts', link: '../number-facts/index.html', isComplete: true, stack: [html, css, js, bootstrap]},
 {id: 7, title: 'Lyric Search', link: '/lyric-search', isComplete: true, stack: [html, css, js, bootstrap, react]},
-{id: 7, title: 'Step Form', link: '#', isComplete: false, stack: [html, css, js, react]}
+{id: 8, title: 'Step Form', link: '/step-form', isComplete: true, stack: [html, css, js, react]},
+{id: 9, title: 'Todoist Clone', link: '#', isComplete: false, stack: [html, css, js, react]}
 ]
 
 const stack = [
