@@ -8,14 +8,15 @@ const nodejs = '<i class="fab fa-node-js"></i>'
 const works = [
 {id: 1, title: 'Task Landing Page', link: '../task/index.html', isComplete: true, stack: [html, css]},
 {id: 2, title: 'Mogo Landing Page', link: '../mogo/index.html', isComplete: true, stack: [html, css]},
-{id: 3, title: 'Filterable List', link: '../filterable-list/index.html', isComplete: true, stack: [html, css, js]},
-{id: 4, title: 'Capital Search', link: '../capital-search/index.html', isComplete: true, stack: [html, css, js, bootstrap]},
-{id: 5, title: 'Weight Converter', link: '../weight-converter/index.html', isComplete: true, stack: [html, css, js, bootstrap]},
-{id: 6, title: 'Number Facts', link: '../number-facts/index.html', isComplete: true, stack: [html, css, js, bootstrap]},
-{id: 7, title: 'Lyric Search', link: '/lyric-search', isComplete: true, stack: [html, css, js, bootstrap, react]},
-{id: 8, title: 'Step Form', link: '/step-form', isComplete: true, stack: [html, css, js, react]},
-{id: 9, title: 'Note', link: '/note-app', isComplete: true, stack: [html, css, js, react]},
-{id: 10, title: 'Todoist Clone', link: '#', isComplete: false, stack: [html, css, js, react]}
+{id: 3, title: 'Fashion Ecommerce Landing Page', link: '../fashion/index.html', isComplete: true, stack: [html, css, bootstrap]},
+{id: 4, title: 'Filterable List', link: '../filterable-list/index.html', isComplete: true, stack: [html, css, js]},
+{id: 5, title: 'Capital Search', link: '../capital-search/index.html', isComplete: true, stack: [html, css, js, bootstrap]},
+{id: 6, title: 'Weight Converter', link: '../weight-converter/index.html', isComplete: true, stack: [html, css, js, bootstrap]},
+{id: 7, title: 'Number Facts', link: '../number-facts/index.html', isComplete: true, stack: [html, css, js, bootstrap]},
+{id: 8, title: 'Lyric Search', link: '/lyric-search', isComplete: true, stack: [html, css, js, bootstrap, react]},
+{id: 9, title: 'Step Form', link: '/step-form', isComplete: true, stack: [html, css, js, react]},
+{id: 10, title: 'Note', link: '/note-app', isComplete: true, stack: [html, css, js, react]},
+{id: 11, title: 'Todoist Clone', link: '#', isComplete: false, stack: [html, css, js, react]}
 ]
 
 const stack = [
