@@ -16,7 +16,8 @@ const works = [
 {id: 8, title: 'Lyric Search', link: '/lyric-search', isComplete: true, stack: [html, css, js, bootstrap, react]},
 {id: 9, title: 'Step Form', link: '/step-form', isComplete: true, stack: [html, css, js, react]},
 {id: 10, title: 'Note', link: '/note-app', isComplete: true, stack: [html, css, js, react]},
-{id: 11, title: 'Todoist Clone', link: '#', isComplete: false, stack: [html, css, js, react]}
+{id: 11, title: 'Marioplan', link: '/marioplan', isComplete: true, stack: [html, css, js, react]},
+{id: 12, title: 'Todoist Clone', link: '#', isComplete: false, stack: [html, css, js, react]}
 ]
 
 const stack = [
