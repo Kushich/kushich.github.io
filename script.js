@@ -17,7 +17,8 @@ const works = [
 {id: 9, title: 'Step Form', link: '/step-form', isComplete: true, stack: [html, css, js, react]},
 {id: 10, title: 'Note', link: '/note-app', isComplete: true, stack: [html, css, js, react]},
 {id: 11, title: 'Marioplan', link: '/marioplan', isComplete: true, stack: [html, css, js, react]},
-{id: 12, title: 'Hotel reservation', link: 'https://github.com/Kushich/hotel-reservation', isComplete: false, stack: [html, css, js, react]}
+{id: 12, title: 'Hotel reservation', link: '/hotel-reservation', isComplete: true, stack: [html, css, js, react]},
+{id: 13, title: '...', link: '#', isComplete: false, stack: [html, css, js, react]}
 ]
 
 const stack = [
