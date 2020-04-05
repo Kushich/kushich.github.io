@@ -19,8 +19,9 @@ const works = [
 {id: 10, title: 'Note', link: '/note-app', isComplete: true, stack: [html, css, js, react]},
 {id: 11, title: 'Marioplan', link: '/marioplan', isComplete: true, stack: [html, css, js, react]},
 {id: 12, title: 'Hotel reservation', link: '/hotel-reservation', isComplete: true, stack: [html, css, js, react]},
-{id: 13, title: 'Tasks App', link: '/v-tasks-app', isComplete: true, stack: [html, css, js, vue]},
-{id: 14, title: '...', link: '#', isComplete: false, stack: [html, css, js, vue]}
+{id: 13, title: 'Weather App', link: '/v-weather-app', isComplete: true, stack: [html, css, js, vue]},
+{id: 14, title: 'Tasks App', link: '/v-tasks-app', isComplete: true, stack: [html, css, js, vue]},
+{id: 15, title: '...', link: '#', isComplete: false, stack: [html, css, js, vue]}
 ]
 
 const stack = [
