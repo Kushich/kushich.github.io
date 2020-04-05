@@ -4,6 +4,7 @@ const js = '<i class="fab fa-js"></i>'
 const bootstrap = '<i class="fab fa-bootstrap"></i>'
 const react = '<i class="fab fa-react"></i>'
 const nodejs = '<i class="fab fa-node-js"></i>'
+const vue = '<i class="fab fa-vuejs"></i>'
 
 const works = [
 {id: 1, title: 'Task Landing Page', link: '../task/index.html', isComplete: true, stack: [html, css]},
@@ -18,16 +19,17 @@ const works = [
 {id: 10, title: 'Note', link: '/note-app', isComplete: true, stack: [html, css, js, react]},
 {id: 11, title: 'Marioplan', link: '/marioplan', isComplete: true, stack: [html, css, js, react]},
 {id: 12, title: 'Hotel reservation', link: '/hotel-reservation', isComplete: true, stack: [html, css, js, react]},
-{id: 13, title: '...', link: '#', isComplete: false, stack: [html, css, js, react]}
+{id: 13, title: 'Tasks App', link: '/v-tasks-app', isComplete: true, stack: [html, css, js, vue]},
+{id: 14, title: '...', link: '#', isComplete: false, stack: [html, css, js, vue]}
 ]
 
 const stack = [
 {id: 1, icon: html, link: 'https://developer.mozilla.org/en-US/docs/Web/HTML'},
 {id: 2, icon: css, link: 'https://developer.mozilla.org/en-US/docs/Web/CSS'},
 {id: 3, icon: js, link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'},
-{id: 4, icon: bootstrap, link: 'https://getbootstrap.com/'},
-{id: 5, icon: react, link: 'https://reactjs.org/'},
-{id: 6, icon: nodejs, link: 'https://nodejs.org/en/'}
+{id: 4, icon: react, link: 'https://reactjs.org/'},
+{id: 5, icon: nodejs, link: 'https://nodejs.org/en/'},
+{id: 6, icon: vue, link: 'https://vuejs.org/'}
 ]
 
 // Scroll btn

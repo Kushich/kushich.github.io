@@ -184,7 +184,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .work__stack i.fa-node-js,
 .stack__item i.fa-node-js:hover {
-	color: #80bd01	;
+	color: #80bd01;
+}
+.work__stack i.fa-vuejs,
+.stack__item i.fa-vuejs:hover {
+	color: #3fb984;
 }
 
 .wip {
