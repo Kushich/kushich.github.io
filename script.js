@@ -22,7 +22,7 @@ const works = [
 {id: 13, title: 'Weather App', link: '/v-weather-app', isComplete: true, stack: [html, css, js, vue]},
 {id: 14, title: 'Tasks App', link: '/v-tasks-app', isComplete: true, stack: [html, css, js, vue]},
 {id: 15, title: 'Lyric Finder App', link: '/v-lyricfinder-app', isComplete: true, stack: [html, css, js, vue]},
-{id: 16, title: '...', link: '#', isComplete: false, stack: [html, css, js, vue]}
+{id: 16, title: 'Hotel Reservation App', link: 'https://github.com/Kushich/v-reservation-app', isComplete: false, stack: [html, css, js, vue]}
 ]
 
 const stack = [
