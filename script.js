@@ -22,7 +22,7 @@ const works = [
 {id: 13, title: 'Weather App', link: '/v-weather-app', isComplete: true, stack: [html, css, js, vue]},
 {id: 14, title: 'Tasks App', link: '/v-tasks-app', isComplete: true, stack: [html, css, js, vue]},
 {id: 15, title: 'Lyric Finder App', link: '/v-lyricfinder-app', isComplete: true, stack: [html, css, js, vue]},
-{id: 16, title: 'Hotel Reservation App', link: 'https://github.com/Kushich/v-reservation-app', isComplete: false, stack: [html, css, js, vue]}
+{id: 16, title: 'Car Market', link: '../car-market/index.html', isComplete: false, stack: [html, css, js, bootstrap, vue]}
 ]
 
 const stack = [
@@ -87,7 +87,7 @@ function createStackHtml(tech) {
 
 // render
 function render() {
-	const worksHtml = works.map(createWorksHtml).join('')
+	const worksHtml = works.reverse().map(createWorksHtml).join('')
 	const stackHtml = stack.map(createStackHtml).join('')
 	document.querySelector('#worksItems').innerHTML = worksHtml
 	document.querySelector('#stackItems').innerHTML = stackHtml

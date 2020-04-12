@@ -1,0 +1,153 @@
+h1, h2, h3, h4, h5, h6 {
+	color: #383737;
+}
+p {
+	line-height: 26px;
+  color: #535353;
+}
+
+
+.banner-item {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background: url('./assets/banner-bg.jpg') no-repeat center;
+	background-size: cover;
+  background-position: bottom;
+}
+.banner-content {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+.banner-content h1 {
+	color: #fff;
+	font-size: 70px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.banner-content p {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	opacity: 0.8;
+	margin-bottom: 30px;
+}
+
+/* Search Box */
+.search-box {
+	padding: 30px 0 10px;
+	box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+}
+.search-fields {
+	border-radius: 3px;
+	border: 1px solid #e0e0e0;
+  background: #fff;
+}
+.search-fields button {
+	width: 100%;
+}
+/* Featured Cars */
+.car-box {
+	position: relative;
+  margin-bottom: 30px;
+  background: #fff;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.car-thumbnail {
+	position: relative;
+}
+.price-box {
+	font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  z-index: 999;
+  color: #ff5200;
+}
+.price-box sub {
+	font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  opacity: 0.9;
+}
+.price-box span {
+	color: #fff;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.tag {
+	float: left;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: -60px;
+  top: 30px;
+  text-align: center;
+  width: 200px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  font-weight: 500;
+  line-height: 32px;
+  background: #292929;
+  text-transform: uppercase;
+}
+
+.tag.active {
+	background: #ff5200;
+}
+
+
+
+/* Another */
+.block {
+	padding: 100px 0 85px;
+}
+.block-title {
+	margin-bottom: 50px;
+	text-align: center;
+}
+.block-title h1 {
+	font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.block-title p {
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+/* Buttons */
+.btn-lg {
+	padding: 9px 35px 8px 35px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.btn-round {
+	border-radius: 30px;
+}
+.btn-theme {
+	color: #fff;
+	background: #ff5200;
+  border: solid 1px #ff5200;
+}
