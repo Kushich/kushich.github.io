@@ -26,6 +26,14 @@ ul {
   background-size: cover;
   background-position: bottom;
 }
+.banner-item:before {
+  content: "";
+  position:absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
 .banner-content {
   display: -webkit-flex;
   display: -moz-flex;
@@ -207,6 +215,41 @@ ul {
   color: #ff5200;
 }
 
+/* Advantages */
+.advantages {
+  position: relative;
+  background: url('./assets/bg-1.jpg') no-repeat center;
+  background-size: cover;
+  background-position: center;
+}
+.advantages .block-title h1,
+.advantages .block-title p,
+.advantages-item h5,
+.advantages-item p {
+  color: #fff;
+}
+.advantages:before {
+  content: "";
+  position:absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+.advantages .block-title p {
+  margin-bottom: 20px;
+}
+.advantages-icon {
+  text-align: center;
+  min-width: 60px;
+  color: #ff5200;
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+
+
+
 /* Another */
 .block {
   padding: 100px 0 85px;
@@ -225,6 +268,7 @@ ul {
   margin-bottom: 0;
   font-weight: 400;
 }
+
 
 /* Buttons */
 .btn-lg {
