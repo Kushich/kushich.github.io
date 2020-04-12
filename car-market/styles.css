@@ -5,6 +5,13 @@ p {
 	line-height: 26px;
   color: #535353;
 }
+ul {
+	margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #535353;
+}
+
 
 
 .banner-item {
@@ -32,6 +39,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	color: #fff;
+	user-select: none;
 }
 .banner-content h1 {
 	color: #fff;
@@ -61,6 +69,8 @@ p {
 .search-fields button {
 	width: 100%;
 }
+
+
 /* Featured Cars */
 .car-box {
 	position: relative;
@@ -71,6 +81,39 @@ p {
 }
 .car-thumbnail {
 	position: relative;
+	user-select: none;
+}
+.car-thumbnail:before {
+	content: "";
+  top: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 8;
+  background: linear-gradient(to top,rgba(47, 45, 45, 0.9) 0%,rgba(0, 0, 0, 0.45) 35%,rgba(2, 2, 2, 0) 60%,rgba(0,0,0,0) 100%);
+  border-radius: 4px 4px 0 0;
+  opacity: 1;
+}
+.car-thumbnail:hover .carbox-overlap {
+	opacity: 1;
+}
+.carbox-overlap {
+	opacity: 0;
+	background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+  position: absolute;
+  text-align: center;
+  color: #FFF;
+  left: 0;
+  top: 0;
+  transition: opacity .2s linear;
+}
+.overlap-box {
+	position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .price-box {
 	font-size: 36px;
@@ -109,9 +152,51 @@ p {
   background: #292929;
   text-transform: uppercase;
 }
-
 .tag.active {
 	background: #ff5200;
+}
+.car-img {
+	display: block;
+}
+.car-detail {
+	padding: 25px 20px 15px;
+}
+.car-detail .title {
+	font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.car-detail .title a {
+	color: #ff5200;
+	text-decoration: none;
+}
+.car-detail .title a:hover {
+	color: #4d4d4d;
+}
+.car-detail .location {
+	margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.car-detail .location a {
+	color: #535353;
+	text-decoration: none;
+}
+.car-detail .facilities-list {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.car-detail .facilities-list li {
+	list-style: none;
+	width: 33.3333%;
+	line-height: 35px;
+	font-weight: 400;
+	font-size: 14px;
+}
+.car-detail .facilities-list i {
+	color: #ff5200;
 }
 
 
@@ -150,4 +235,12 @@ p {
 	color: #fff;
 	background: #ff5200;
   border: solid 1px #ff5200;
+}
+.btn-overlap {
+	background-color: transparent;
+	color: #ff5200;
+	border: solid 2px #ff5200;
+}
+.btn-overlap:hover {
+	color: #fff;
 }
