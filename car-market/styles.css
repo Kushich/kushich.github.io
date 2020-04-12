@@ -1,122 +1,130 @@
-h1, h2, h3, h4, h5, h6 {
-	color: #383737;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #383737;
 }
 p {
-	line-height: 26px;
+  line-height: 26px;
   color: #535353;
 }
 ul {
-	margin: 0;
+  margin: 0;
   padding: 0;
   list-style: none;
   color: #535353;
 }
 
-
-
 .banner-item {
-	position: relative;
-	width: 100%;
-	height: 100vh;
-	overflow: hidden;
-	background: url('./assets/banner-bg.jpg') no-repeat center;
-	background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: url('./assets/banner-bg.jpg') no-repeat center;
+  background-size: cover;
   background-position: bottom;
 }
 .banner-content {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	flex-direction: column;
-	position: absolute;
-	right: 0;
-	left: 0;
-	top: 50%;
-	transform: translateY(-50%);
-	margin: 0 auto;
-	justify-content: center;
-	align-items: center;
-	color: #fff;
-	user-select: none;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  user-select: none;
 }
 .banner-content h1 {
-	color: #fff;
-	font-size: 70px;
-	font-weight: 700;
-	text-transform: uppercase;
-	margin-bottom: 20px;
+  color: #fff;
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 .banner-content p {
-	color: #fff;
-	font-size: 18px;
-	font-weight: 400;
-	opacity: 0.8;
-	margin-bottom: 30px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.8;
+  margin-bottom: 30px;
 }
 
 /* Search Box */
 .search-box {
-	padding: 30px 0 10px;
-	box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  padding: 30px 0 10px;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
 }
 .search-fields {
-	border-radius: 3px;
-	border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
   background: #fff;
 }
 .search-fields button {
-	width: 100%;
+  width: 100%;
 }
-
 
 /* Featured Cars */
 .car-box {
-	position: relative;
+  position: relative;
   margin-bottom: 30px;
   background: #fff;
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 .car-thumbnail {
-	position: relative;
-	user-select: none;
+  position: relative;
+  user-select: none;
 }
 .car-thumbnail:before {
-	content: "";
+  content: '';
   top: 0;
   position: absolute;
   height: 100%;
   width: 100%;
   z-index: 8;
-  background: linear-gradient(to top,rgba(47, 45, 45, 0.9) 0%,rgba(0, 0, 0, 0.45) 35%,rgba(2, 2, 2, 0) 60%,rgba(0,0,0,0) 100%);
+  background: linear-gradient(
+    to top,
+    rgba(47, 45, 45, 0.9) 0%,
+    rgba(0, 0, 0, 0.45) 35%,
+    rgba(2, 2, 2, 0) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
   border-radius: 4px 4px 0 0;
   opacity: 1;
 }
 .car-thumbnail:hover .carbox-overlap {
-	opacity: 1;
+  opacity: 1;
 }
 .carbox-overlap {
-	opacity: 0;
-	background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.6);
   height: 100%;
   width: 100%;
   z-index: 999;
   position: absolute;
   text-align: center;
-  color: #FFF;
+  color: #fff;
   left: 0;
   top: 0;
-  transition: opacity .2s linear;
+  transition: opacity 0.2s linear;
 }
 .overlap-box {
-	position: relative;
+  position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 .price-box {
-	font-size: 36px;
+  font-size: 36px;
   font-weight: 700;
   position: absolute;
   bottom: 10px;
@@ -125,19 +133,19 @@ ul {
   color: #ff5200;
 }
 .price-box sub {
-	font-size: 16px;
+  font-size: 16px;
   color: #fff;
   font-weight: 500;
   opacity: 0.9;
 }
 .price-box span {
-	color: #fff;
+  color: #fff;
   font-weight: 500;
   opacity: 0.9;
 }
 
 .tag {
-	float: left;
+  float: left;
   position: absolute;
   transform: rotate(-45deg);
   left: -60px;
@@ -153,64 +161,62 @@ ul {
   text-transform: uppercase;
 }
 .tag.active {
-	background: #ff5200;
+  background: #ff5200;
 }
 .car-img {
-	display: block;
+  display: block;
 }
 .car-detail {
-	padding: 25px 20px 15px;
+  padding: 25px 20px 15px;
 }
 .car-detail .title {
-	font-size: 22px;
+  font-size: 22px;
   margin-bottom: 10px;
   font-weight: 600;
 }
 .car-detail .title a {
-	color: #ff5200;
-	text-decoration: none;
+  color: #ff5200;
+  text-decoration: none;
 }
 .car-detail .title a:hover {
-	color: #4d4d4d;
+  color: #4d4d4d;
 }
 .car-detail .location {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
   font-size: 15px;
   font-weight: 400;
 }
 .car-detail .location a {
-	color: #535353;
-	text-decoration: none;
+  color: #535353;
+  text-decoration: none;
 }
 .car-detail .facilities-list {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .car-detail .facilities-list li {
-	list-style: none;
-	width: 33.3333%;
-	line-height: 35px;
-	font-weight: 400;
-	font-size: 14px;
+  list-style: none;
+  width: 33.3333%;
+  line-height: 35px;
+  font-weight: 400;
+  font-size: 14px;
 }
 .car-detail .facilities-list i {
-	color: #ff5200;
+  color: #ff5200;
 }
-
-
 
 /* Another */
 .block {
-	padding: 100px 0 85px;
+  padding: 100px 0 85px;
 }
 .block-title {
-	margin-bottom: 50px;
-	text-align: center;
+  margin-bottom: 50px;
+  text-align: center;
 }
 .block-title h1 {
-	font-size: 40px;
+  font-size: 40px;
   font-weight: 600;
   margin-bottom: 15px;
 }
@@ -222,25 +228,25 @@ ul {
 
 /* Buttons */
 .btn-lg {
-	padding: 9px 35px 8px 35px;
+  padding: 9px 35px 8px 35px;
   letter-spacing: 1px;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
 }
 .btn-round {
-	border-radius: 30px;
+  border-radius: 30px;
 }
 .btn-theme {
-	color: #fff;
-	background: #ff5200;
+  color: #fff;
+  background: #ff5200;
   border: solid 1px #ff5200;
 }
 .btn-overlap {
-	background-color: transparent;
-	color: #ff5200;
-	border: solid 2px #ff5200;
+  background-color: transparent;
+  color: #ff5200;
+  border: solid 2px #ff5200;
 }
 .btn-overlap:hover {
-	color: #fff;
+  color: #fff;
 }
